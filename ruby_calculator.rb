@@ -40,7 +40,7 @@ class Calculator
 				calculator.result(options_list[c]) if calculator.is_valid?
 				puts "-------------------------------------------\n"
 			rescue
-				puts "Second number should not be zero for division"
+				puts "\nSecond number should not be zero for division"
 				puts "-------------------------------------------\n"
 			end
 		end	
